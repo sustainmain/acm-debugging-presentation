@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -Wall
+CXXFLAGS = -Wall  # add '-g' for debugging info
 CPP_FILES = $(wildcard *.cpp)
 
 
