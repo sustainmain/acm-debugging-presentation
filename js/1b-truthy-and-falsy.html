@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+        function checkInput() {
+            const inputValue = document.getElementById("inputBox").value;
+
+            if (inputValue === 'true') {
+                alert("You entered '" + inputValue + "'");
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>Enter true or false</p>
+    <form action="javascript:checkInput();">
+        <input id="inputBox" type="text">
+    </form>
+</body>
+</html>
