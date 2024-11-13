@@ -1,3 +1,5 @@
+# Executables
 *.out
 
+# VS Code settings
 .vscode/*.json
